@@ -17,7 +17,7 @@ sounds.forEach(sounds => {
 
 function stopSongs() {
     sounds.forEach(sound => {
-        const song = document.getElementById(sounds)
+        const song = document.getElementById(sound)
 
         song.pause()
         song.currentTime = 0;
